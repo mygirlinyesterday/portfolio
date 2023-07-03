@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    /* .bio { @apply 
+
+    } */
+
+    .name { @apply font-bold text-4xl  text-center items-center mb-5 p-12 
+        
+    }
+
+    .position { @apply font-bold text-2xl text-left items-center mb-5
+
+    }
+
+    .detail { @apply text-base text-left items-center mb-5
+    
+    }
+}

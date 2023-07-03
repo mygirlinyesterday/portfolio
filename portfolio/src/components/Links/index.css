@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .links { @apply  grid grid-cols-7 text-3xl text-center
+        
+    }
+}
