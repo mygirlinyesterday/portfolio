@@ -1,10 +1,10 @@
 import React from 'react'
-import './index.css'
+import './style.css'
 
 export default function Name() {
   return (
     <div className='bio'>
-        <div className='name'>
+        <div className='bio-name'>
             <p>Anusith Pliekong</p>
         </div> 
         <div className='position'>

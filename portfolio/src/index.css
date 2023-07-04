@@ -8,6 +8,7 @@
 body { font-family: 'Noto Sans Bassa Vah', sans-serif;
     
     @apply
+        
         bg-slate-900 
         text-gray-400
     }

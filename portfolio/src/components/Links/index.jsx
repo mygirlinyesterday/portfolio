@@ -7,20 +7,17 @@ import './index.css'
 
 export default function Links() {
   return (
-    <div className='links'>
-      <div></div>
-      <div></div>
-      <div>
-        <FontAwesomeIcon icon={faGithub} className='github'/>
-      </div>
-      <div>
+    <ul className='links'>
+      <li></li>
+      <li>
+        <FontAwesomeIcon icon={faGithub} className='github'/> 
+      </li>
+      <li>
         <FontAwesomeIcon icon={faEnvelope} className='email'/>
-      </div>
-      <div>
+      </li>
+      <li>
         <FontAwesomeIcon icon={faLinkedin} className='linkedin'/>
-      </div>
-      <div></div>
-      <div></div>
-    </div>
+      </li>
+    </ul>
   )
 }
