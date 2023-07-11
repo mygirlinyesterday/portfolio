@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components { 
+
+        .detail { @apply mt-2 text-sm leading-normal
+
+        }
+}

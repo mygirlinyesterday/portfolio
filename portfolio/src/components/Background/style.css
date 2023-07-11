@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @layer components {
+    .background { 
 
-    .links { @apply  grid grid-cols-7 text-3xl text-center
-        
     }
+
 }

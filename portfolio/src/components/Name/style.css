@@ -8,9 +8,16 @@
         
     }
 
-    /* .name p { @apply 
+    .head1 { @apply text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl 
 
-    } */
+    }
+
+    .head2 { @apply mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl
+
+    }
+
+    .head3 { @apply mt-4 max-w-xs leading-normal
+    }
 
     .position { @apply font-bold text-2xl text-left items-center mb-5
 
