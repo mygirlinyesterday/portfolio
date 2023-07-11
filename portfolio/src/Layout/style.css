@@ -19,11 +19,29 @@
 
     }
 
-    .bio { @apply  mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24
+    .bio-block { @apply  mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24
 
     }
 
     .experience { @apply mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24
 
     }
+
+    .archive { @apply lg:scroll-mt-[96px]
+
+    }
+
+    .bio { @apply lg:scroll-mt-[96px]
+
+    }
+
+    .experience { @apply lg:scroll-mt-[96px]
+
+    }
+
+    .link { @apply flex
+       
+    }
+
+
   }

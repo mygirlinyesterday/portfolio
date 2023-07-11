@@ -3,8 +3,7 @@
 @tailwind utilities;
 
 @layer components {
-    .aboutme { @apply  mt-0 mb-20 mx-0 ml-[-1.7rem] pl-7
+    .aboutme { @apply  mt-0 mb-20 mx-0 ml-[-1.7rem] pl-7 
 
     }
-
   }

@@ -15,8 +15,8 @@ export default function Layout() {
             <div className='col1'>
               <div className='name'><Name></Name></div>
               <div className='nav'><Nav></Nav></div>
-              <div className='link'><Links></Links></div>
             </div>
+            <Links></Links>
         </div>
         <div className='col2'>
             <div className='bio'><AboutMe></AboutMe></div>
