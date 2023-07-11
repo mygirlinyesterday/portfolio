@@ -12,6 +12,7 @@ export default function Layout() {
     <div className='main-container'>
       <div className='content'>
         <div className='header'>
+
             <div className='col1'>
               <div className='name'><Name></Name></div>
               <div className='nav'><Nav></Nav></div>

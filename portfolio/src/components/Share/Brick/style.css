@@ -3,8 +3,9 @@
 @tailwind utilities;
 
 @layer components { 
-  
-    .col { @apply flex
 
+    .line{ @apply h-[1px] w-10 group-hover:w-20 bg-yellow-400 transition-all
+    
     }
+
 }

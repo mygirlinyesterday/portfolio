@@ -1,4 +1,6 @@
 import React from 'react'
+import Brick from '../Share/Brick'
+import './style.css'
 
 export default function Navigate() {
   const handleClick = (param) => {
@@ -15,13 +17,16 @@ export default function Navigate() {
 
   return (
     <>
-      <div onClick={()=>{handleClick('bio')}}>
+      <div className='col' onClick={()=>{handleClick('bio')}}>
+        <Brick></Brick>
         ABOUT
       </div>
-      <div onClick={()=>{handleClick('experience')}}>
+      <div className='col' onClick={()=>{handleClick('experience')}}>
+      <Brick></Brick>
         EXPERIENCE 
       </div>
-      <div onClick={()=>{handleClick('archive')}}>
+      <div className='col' onClick={()=>{handleClick('archive')}}>
+      <Brick></Brick>
         ARCHIVE
       </div>
     </>
